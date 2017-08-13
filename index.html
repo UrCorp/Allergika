@@ -3,7 +3,7 @@
 	<head>
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-	  <title>Refel</title>
+	  <title>Allergika</title>
 
 	  <!-- CSS  -->
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -15,15 +15,208 @@
 	</head>
 	<body>
 
-		<!-- Large menu -->
+		<!-- Start [Nav menu] -->
+		<!-- For desktop -->
+		<div class="navbar-fixed hide-on-med-and-down">
+		  <nav class="blue" style="z-index: 4;height:142px"  role="navigation">
+		    <div class="nav-wrapper valign-wrapper w3-display-container">
+					<img src="img/menu-bar.png" style="width:100%">
+		      <a href="Home">
+		        <img src="img/logos/logotrans.png" class="w3-display-left logonav" style="width: 18%; margin-left: 5%">
+		      </a>
+		      <ul class="condensed w3-display-right">
+		        <li>
+		          <a href="Home" class="white-text">¿Quiénes Somos?</a>
+		        </li>
+		        <li>
+		          <a class="white-text" href="#">
+		            Beneficios
+		          </a>
+		        </li>
+		        <li>
+		          <a class="white-text" href="#">
+		            ¿Dónde Comprar?
+		          </a>
+		        </li>
+		        <li>
+		          <a class="white-text" href="#">
+		            Contacto
+		          </a>
+		        </li>
+		      </ul>
+		    </div>
+		  </nav>
+		</div>
 
+		<!-- Mobile menu -->
+		<div class="navbar-fixed hide-on-large-only" style="margin-top: 0">
+		  <nav class="blue" style="z-index: 4; height: 142px;" role="navigation">
+		    <div class="nav-wrapper valign-wrapper w3-display-container">
+					<img src="img/menu-bar.png" alt="">
+		      <a href="#" data-activates="mobile-demo" class="button-collapse w3-display-left">
+		        <i class="material-icons white-text" id="iconmenumovil">menu</i>
+		      </a>
+		      <a href="Home">
+		        <img src="img/logos/logotrans.png" class="w3-display-middle logonav" height="" width="50%">
+		      </a>
 
-    <!-- Mobile menu -->
+		    </div>
+		  </nav>
+		</div>
+
+		<!-- Collapsible menu -->
+		<ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
+
+		    <li><a href="Home">Home</a></li>
+		    <li>
+		        <div class="collapsible-header">Academics</div>
+		        <div class="collapsible-body">
+		            <a href="Certification">WTC Certification</a>
+		            <a href="Lean-Six-Sigma">Lean Six Sigma</a>
+		        </div>
+		    </li>
+		    <li>
+		        <div class="collapsible-header">Real Estate</div>
+		        <div class="collapsible-body">
+		            <a href="#!">Coworking</a>
+		            <a href="#" target="_blank">Offices</a>
+		        </div>
+		    </li>
+		</ul>
+		<!-- End [Nav menu] -->
+
+		<!-- Start [Slider] -->
+		<div class="slider" style="margin-top: 70px;">
+		  <ul class="slides valign-wrapper">
+		    <li class="w3-container-display">
+		      <img src="img/slide1.png">
+					<img src="img/3.png" class="w3-display-right" style="width:350px; margin-right:10%">
+					<div class="w3-display-bottomleft" style="width:50%">
+						<div class="w3-row">
+							<div class="w3-half">
+							<a href="#" class="fa fa-facebook socialnav"></a>
+							<a href="#" class="fa fa-instagram socialnav" style="margin: 10px"></a>
+							</div>
+							<div class="w3-half">
+								<p style="font-size: 18px">Siguenos en redes sociales</p>
+								<h5 class="blue-text">@allergika_mx</h5>
+							</div>
+						</div>
+					</div>
+		      <div class="caption left-align" style="width:40%">
+		        <p class="slide1">Descrube nuestra nueva línea de productos que protegen la piel de pies a cabeza.</p>
+						<hr >
+		        <p>La marca alemana por fin en México</p>
+					</div>
+		    </li>
+		    <!--li>
+		      <img src="img/slide2.png">
+		      <div class="caption center-align">
+		        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
+		        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
+		        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
+		          <i class="material-icons right">shop</i>
+		          Go Shopping
+		        </a>
+		      </div>
+		    </li>
+		    <li>
+		      <img src="img/slide3.png">
+		      <div class="caption center-align">
+		        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
+		        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
+		        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
+		          <i class="material-icons right">shop</i>
+		          Go Shopping
+		        </a>
+		      </div>
+		    </li>
+		    <li>
+		      <img src="img/slide2.png">
+		      <div class="caption center-align">
+		        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
+		        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
+		        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
+		          <i class="material-icons right">shop</i>
+		          Go Shopping
+		        </a>
+		      </div>
+		    </li-->
+		  </ul>
+		  <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 50px; font-size: 36px">&#10094;</span></button>
+		  <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
+		</div>
+		<!-- End [Slider] -->
+
+		<!-- Start [Benefits] -->
+		<div class="section" style="padding: 2%">
+			<h2 class="center" style="color:#053991">Beneficios</h2>
+			<div class="w3-panel row">
+				<div class="col l2 s12 offset-l1">
+					<img style="width:100%" src="img/circulo1.png" alt="">
+					<p class="w3-justify">La única marca capaz de usarse desde el primer día de nacido.</p>
+				</div>
+				<div class="col l2 s12 offset-l2">
+					<img style="width:100%" src="img/circulo2.png" alt="">
+					<p class="center">El único programa que va de pies a cabeza</p>
+				</div>
+				<div class="col l2 s12 offset-l2">
+					<img style="width:100%" src="img/cirlculo3.png" alt="">
+					<p class="center">La única marca con productos para los párpados.</p>
+				</div>
+			</div>
+		</div>
+		<!-- End [Benefits] -->
+
+		<!-- Start [Testimonials] -->
+		<div class="section" style="height: 400px; background-color:#face00">
+
+		</div>
+		<!-- End [Testimonials] -->
+
+		<!-- Start [Products] -->
+		<div class="section">
+			<div class="w3-row">
+				<div class="w3-half">
+					<img src="img/mujer.png" style="width:100%" class="w3-right">
+				</div>
+				<div class="w3-half">
+					<h1 style="color:gold">Tipos de Terapias</h1>
+				</div>
+			</div>
+		</div>
+		<!-- End [Products] -->
+
+		<!-- Start [Therapies] -->
+		<!-- End [Therapies] -->
+
+		<!-- Start [Baby products] -->
+		<!-- End [Baby products] -->
+
+		<!-- Start [Contact ] -->
+		<!-- End [Contact ] -->
 
 		<!--  Scripts-->
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="plugins/materialize/js/materialize.js"></script>
 		<script src="plugins/materialize/js/init.js"></script>
 		<script src="js/home.js"></script>
+		<script>
+		$(document).ready(function () {
+		  $('.slider').slider({
+		  	full_width: true,
+		  	height: 600,
+		  	indicators: false,
+		  	interval: 10000
+			});
+
+			$('.next').click(function() {
+			 $('.slider').slider('next');
+			});
+			$('.prev').click(function() {
+			 $('.slider').slider('prev');
+			});
+    });
+    </script>
 	</body>
 </html>

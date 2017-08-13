@@ -1,7 +1,10 @@
+Cambiar el Repositorio: 
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
 Plantilla de estructura html.
 
 Contiene las siguientes carptestas:
--img 
+-img
 -css
 -plugins
 -js
