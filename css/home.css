@@ -1,4 +1,6 @@
-
+.slider-flechas{
+	z-index: 5; height: 50px; font-size: 36px;
+}
 .socialnav {
 	padding: 25px;
   font-size: 50px;
@@ -22,4 +24,20 @@
 	line-height: 1.3;
 	font-weight: lighter;
 	text-align: justify;
+}
+
+.headerslider2{
+	color:rgb(250, 206, 0);
+}
+
+.yellow-under{
+	border-color:rgba(250, 206, 0,0.8);
+	border-width: 8px;
+	width: 60%;
+	text-align: right;
+	margin-left: 40%;
+}
+
+.yellow-separator{
+	background-color:rgba(250, 206, 0,0.7); height:20px;width:100%;margin-bottom:20px;
 }
