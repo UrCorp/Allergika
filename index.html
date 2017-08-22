@@ -6,7 +6,6 @@
 	  <title>Allergika</title>
 
 	  <!-- CSS  -->
-	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link href="css/w3.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	  <link href="plugins/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -26,10 +25,10 @@
 		      </a>
 		      <ul class="condensed w3-display-right">
 		        <li>
-		          <a href="Home" class="white-text">¿Quiénes Somos?</a>
+		          <a href="#" class="white-text">¿Quiénes Somos?</a>
 		        </li>
 		        <li>
-		          <a class="white-text" href="#">
+		          <a id="mBenefits" class="white-text" href="#Benefits">
 		            Beneficios
 		          </a>
 		        </li>
@@ -39,7 +38,7 @@
 		          </a>
 		        </li>
 		        <li>
-		          <a class="white-text" href="#">
+		          <a id="mContact" class="white-text" href="#Contact">
 		            Contacto
 		          </a>
 		        </li>
@@ -59,29 +58,15 @@
 		      <a href="Home">
 		        <img src="img/logos/logotrans.png" class="w3-display-middle logonav" height="" width="50%">
 		      </a>
-
 		    </div>
 		  </nav>
 		</div>
 
 		<!-- Collapsible menu -->
 		<ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
-
 		    <li><a href="Home">Home</a></li>
-		    <li>
-		        <div class="collapsible-header">Academics</div>
-		        <div class="collapsible-body">
-		            <a href="Certification">WTC Certification</a>
-		            <a href="Lean-Six-Sigma">Lean Six Sigma</a>
-		        </div>
-		    </li>
-		    <li>
-		        <div class="collapsible-header">Real Estate</div>
-		        <div class="collapsible-body">
-		            <a href="#!">Coworking</a>
-		            <a href="#" target="_blank">Offices</a>
-		        </div>
-		    </li>
+		    <li></li>
+		    <li></li>
 		</ul>
 		<!-- End [Nav menu] -->
 
@@ -108,38 +93,6 @@
 		        <p class="slide1-2" style="color:white">La marca alemana por fin en México</p>
 					</div>
 		    </li>
-		    <!--li>
-		      <img src="img/slide2.png">
-		      <div class="caption right-align">
-						<h1 class="wide headerslider2">Beneficios Únicos</h1>
-						<hr class="yellow-under">
-								<p>La unica marca capaz de usarse desde el primer dia de nacido<br>
-								El único programa que va de pies a cabeza<br>
-								La unica marca con productos para los parpados</p>
-		      </div>
-		    </li-->
-		    <!--li>
-		      <img src="img/slide3.png">
-		      <div class="caption center-align">
-		        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
-		        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
-		        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
-		          <i class="material-icons right">shop</i>
-		          Go Shopping
-		        </a>
-		      </div>
-		    </li>
-		    <li>
-		      <img src="img/slide2.png">
-		      <div class="caption center-align">
-		        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
-		        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
-		        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
-		          <i class="material-icons right">shop</i>
-		          Go Shopping
-		        </a>
-		      </div>
-		    </li-->
 		  </ul>
 		  <button class="prev btn-flat white-text w3-display-left slider-flechas">&#10094;</span></button>
 		  <button class="next btn-flat white-text w3-display-right slider-flechas">&#10095;</button>
@@ -147,18 +100,18 @@
 		<!-- End [Slider] -->
 
 		<!-- Start [Benefits] -->
-		<div class="section" style="padding: 2%">
+		<div id="Benefits" class="section" style="padding: 2%">
 			<h2 class="center" style="color:#053991">Beneficios</h2>
 			<div class="w3-panel row">
-				<div class="col l2 s12 offset-l1">
+				<div class="col l2 s4 offset-l1">
 					<img style="width:100%" src="img/circulo1.png" alt="">
 					<p class="w3-justify">La única marca capaz de usarse desde el primer día de nacido.</p>
 				</div>
-				<div class="col l2 s12 offset-l2">
+				<div class="col l2 s4 offset-l2">
 					<img style="width:100%" src="img/circulo2.png" alt="">
 					<p class="center">El único programa que va de pies a cabeza</p>
 				</div>
-				<div class="col l2 s12 offset-l2">
+				<div class="col l2 s4 offset-l2">
 					<img style="width:100%" src="img/cirlculo3.png" alt="">
 					<p class="center">La única marca con productos para los párpados.</p>
 				</div>
@@ -231,6 +184,45 @@
 		<!-- End [Baby products] -->
 
 		<!-- Start [Contact ] -->
+		<div id="Contact" class="Contact">
+			<form>
+				<div class="w3-half">
+		      <div class="row">
+		        <div class="col s8 offset-s2">
+		          <input id="first_name" placeholder="Nombre" type="text" class="validate yellow-text w3-input w3-border w3-border-yellow">
+		        </div>
+					</div>
+		      <div class="row" style="margin-top: -20px">
+		        <div class="col s8 offset-s2">
+		          <input id="phone" placeholder="Teléfono" type="text" class="validate yellow-text w3-input w3-border w3-border-yellow">
+		        </div>
+					</div>
+		      <div class="row" style="margin-top: -20px">
+		        <div class="col s8 offset-s2">
+		          <input id="email" placeholder="Correo" type="email" class="validate yellow-text w3-input w3-border w3-border-yellow">
+		        </div>
+					</div>
+					<div class="row" style="margin-top: -20px">
+					<div class="col s8 offset-s2">
+	          <textarea id="msg" placeholder="Mensaje" class="materialize-textarea yellow-text w3-input w3-border w3-border-yellow"></textarea>
+	        </div>
+					</div>
+					<div class="row" style="margin-top: -20px">
+						<div class="col s8 offset-s2">
+							<button type="submit" class="btn yellow blue-text" name="button" style="width:100%">Envíar</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="w3-half w3-border-left w3-border-white" style="padding: 0px 30px 50px 80px;">
+		      <h3 style="margin-top: -15px">Contáctanos</h3>
+					<h5>Teléfono</h5>
+					<a href="tel: 442 2171726" class="fa fa-phone white-text"> 442 2171726</a>
+					<h5>Correo</h5>
+					<a href="mailto:contacto@allergika.com.mx?subject=Contacto" class="fa fa-envelope-o white-text" > contacto@allergika.com.mx</a>
+				</div>
+	    </form>
+		</div>
 		<!-- End [Contact ] -->
 
 		<!--  Scripts-->
@@ -252,6 +244,16 @@
 			});
 			$('.prev').click(function() {
 			 $('.slider').slider('prev');
+			});
+			$("#mBenefits").click(function (){
+					$('html, body').animate({
+							scrollTop: $("#Benefits").offset().top
+					}, 2000);
+			});
+			$("#mContact").click(function (){
+					$('html, body').animate({
+							scrollTop: $("#Contact").offset().top
+					}, 1000);
 			});
     });
     </script>
